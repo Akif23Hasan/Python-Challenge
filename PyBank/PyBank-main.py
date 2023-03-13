@@ -21,7 +21,6 @@ with open (csv_path) as csvfile:
     for rows in csvreader:
         date_column.append(rows [0])
         profit_loss_column.append(int(rows [1]))
-    dataset_rows = list(csv.reader(csvfile))
 
     # Calculate the total number of months included in the dataset, using the len function
     Number_of_months = len(date_column)
