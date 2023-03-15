@@ -5,7 +5,7 @@ import statistics as st
 import sys
 
 #Create references to the CSV File - "budget_data.csv" 
-csv_path = os.path.join("Resources", "budget_data.csv")
+csv_path = os.path.join("Resources","budget_data.csv")
 with open (csv_path) as csvfile:
     csvreader = csv.reader(csvfile, delimiter=',')
 
