@@ -6,7 +6,7 @@ import statistics
 
 
 #Create filepath to the "election_data.csv" file for analysis
-csvpath = os.path.join("Resources", "election_data.csv")
+csvpath = os.path.join("Resources","election_data.csv")
 #Checking results with Print
 #print(csvpath)
 
